@@ -1,6 +1,6 @@
 {
   "appId": "wiki.cook.app",
   "appName": "wiki",
-  "webDir": "../dist",
+  "webDir": "dist",
   "npmClient": "pnpm"
 }
