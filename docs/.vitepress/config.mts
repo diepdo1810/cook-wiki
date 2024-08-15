@@ -32,8 +32,8 @@ export default defineConfig({
       { icon: 'facebook', link: '#' }
     ],
 
-    search: {
-      provider: 'local'
-    }
+    footer: {
+      copyright: 'Bản quyền © 2024 <a href="https://cook-livid.vercel.app/">Cook</a>'
+    }    
   }
 })
