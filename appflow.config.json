@@ -1,0 +1,12 @@
+{
+    "apps": [
+      {
+        "appId": "ace12bcd",
+        "dependencyInstallCommand": "pnpm install",
+        "webBuildCommand": "docs:build",
+        "androidPath": "android",
+        "webBuildDir": "docs/.vitepress/dist"
+      }
+    ]
+  }
+  
