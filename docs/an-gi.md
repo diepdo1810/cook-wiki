@@ -15,21 +15,21 @@ Trang **"Ăn gì"** giúp bạn dễ dàng tìm ra món ăn phù hợp dựa tr�
 
 - **Danh sách món ăn**: Mặc định, trang sẽ hiển thị 5 món ăn ngẫu nhiên. 
 
-  ![Ảnh danh sách món ăn](link-to-image)  <!-- Thêm ảnh mô tả danh sách món ăn -->
+  <!--![Ảnh danh sách món ăn](link-to-image)   Thêm ảnh mô tả danh sách món ăn -->
 
 ### Các nút điều khiển
 
 - **Nút "+"**: Thêm một món ăn ngẫu nhiên vào danh sách hiện tại. 
 
-  ![Ảnh nút +](link-to-image)  <!-- Thêm ảnh mô tả nút + -->
+  <!-- ![Ảnh nút +](link-to-image)  Thêm ảnh mô tả nút + -->
 
 - **Nút "-"**: Xóa món ăn ngẫu nhiên khỏi danh sách hiện tại.
 
-  ![Ảnh nút -](link-to-image)  <!-- Thêm ảnh mô tả nút - -->
+  <!-- ![Ảnh nút -](link-to-image)   Thêm ảnh mô tả nút - -->
 
 - **Nút Ngẫu nhiên**: Tạo một danh sách mới với 5 món ăn ngẫu nhiên khác.
 
-  ![Ảnh nút Ngẫu nhiên](link-to-image)  <!-- Thêm ảnh mô tả nút Ngẫu nhiên -->
+  <!--![Ảnh nút Ngẫu nhiên](link-to-image)   Thêm ảnh mô tả nút Ngẫu nhiên -->
 
 ## Cách sử dụng
 
