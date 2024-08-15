@@ -1,5 +1,6 @@
 {
   "appId": "wiki.cook.app",
   "appName": "wiki",
-  "webDir": "docs/.vitepress/dist"
+  "webDir": "dist",
+  "npmClient": "pnpm"
 }

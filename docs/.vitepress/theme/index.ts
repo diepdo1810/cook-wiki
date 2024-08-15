@@ -18,23 +18,44 @@ async function fetchSongList() {
 }
 
 async function fetchSongDetails(id) {
-    const response = await fetch(`https://chiaser-music.vercel.app/api/song/url?id=${id}&br=320000&realIP=211.161.244.70`);
-    const data = await response.json();
-    return data.data[0].url;
+    try {
+        const response = await fetch(`https://chiaser-music.vercel.app/api/song/url?id=${id}&br=320000&realIP=211.161.244.70`);
+        const data = await response.json();
+
+        // Kiểm tra xem data và data.data có tồn tại và không phải là null
+        if (data && data.data && data.data.length > 0) {
+            return data.data[0].url;
+        } else {
+            console.error(`No data found for song ID: ${id}`);
+            return null;
+        }
+    } catch (error) {
+        console.error(`Error fetching details for song ID: ${id}`, error);
+        return null;
+    }
 }
 
 async function createAudioList() {
-    const songList = await fetchSongList();
-    const audioList = await Promise.all(songList.map(async song => {
-        const url = await fetchSongDetails(song.id);
-        return {
-            name: song.name,
-            author: song.artist,
-            file: url,
-        };
-    }));
+    try {
+        const songList = await fetchSongList();
+        const audioList = await Promise.all(songList.map(async song => {
+            const url = await fetchSongDetails(song.id);
+            if (url) {
+                return {
+                    name: song.name,
+                    author: song.artist,
+                    file: url,
+                };
+            } else {
+                return null;
+            }
+        }));
 
-    return audioList;
+        return audioList.filter(item => item !== null);
+    } catch (error) {
+        console.error('Error creating audio list', error);
+        return [];
+    }
 }
 
 export default {
