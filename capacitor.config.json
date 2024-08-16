@@ -1,6 +1,6 @@
 {
   "appId": "4db08325",
   "appName": "wiki",
-  "webDir": "dist",
+  "webDir": "docs/.vitepress/dist",
   "npmClient": "pnpm"
 }
