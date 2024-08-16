@@ -3,7 +3,7 @@
       {
         "appId": "4db08325",
         "dependencyInstallCommand": "pnpm install",
-        "webBuildCommand": "docs:build",
+        "webBuildCommand": "pnpm docs:build",
         "androidPath": "android",
         "webBuildDir": "docs/.vitepress/dist"
       }

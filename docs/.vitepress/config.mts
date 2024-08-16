@@ -2,7 +2,6 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  outDir: 'dist',
   title: "🍲 Cook",
   description: "Ứng dụng nấu ăn tiện lợi",
   themeConfig: {
