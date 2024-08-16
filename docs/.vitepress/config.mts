@@ -5,6 +5,7 @@ export default defineConfig({
   title: "🍲 Cook",
   description: "Ứng dụng nấu ăn tiện lợi",
   themeConfig: {
+
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       {text: 'cook', link: 'https://cook-livid.vercel.app/'},

@@ -6,13 +6,10 @@ hero:
   name: "🍲 Cook"
   text: "Nấu ăn tiện lợi và nhanh chóng."
   tagline: "Khám phá niềm vui trong từng bữa ăn"
-actions:
+  actions:
     - theme: brand
-      text: "📖 Xem công thức nấu ăn"
-      link: /cong-thuc-nau-an
-    - theme: alt
-      text: "🥕 Khám phá nguyên liệu"
-      link: /kham-pha-nguyen-lieu
+      text: "📥 Tải xuống APK"
+      link: /tai-xuong-apk
 
 features:
   - title: "🍽️ Gợi ý món ăn"
